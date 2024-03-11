@@ -62,6 +62,25 @@ table {
 }
 
 
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  /* *zoom: 1; */
+}
+
 /*css for body*/
 
 .container{
@@ -107,4 +126,16 @@ h1, h3, h4, h5, p {
 
 .hero {
   padding: 20px 80px;
+}
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  float: left;
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
 }
