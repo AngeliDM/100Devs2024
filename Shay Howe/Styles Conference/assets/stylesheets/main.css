@@ -68,15 +68,15 @@ table {
   ========================================
 */
 
-.group:before,
-.group:after {
+.clearfix:before,
+.clearfix:after {
   content: "";
   display: table;
 }
-.group:after {
+.clearfix:after {
   clear: both;
 }
-.group {
+.clearfix {
   clear: both;
   /* *zoom: 1; */
 }
@@ -138,4 +138,19 @@ h1, h3, h4, h5, p {
   float: left;
   border-top: 4px solid #648880;
   padding: 40px 0 22px 0;
+}
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer small{
+  float: left;
+  padding-top:10px;
+
+}
+.primary-footer{
+  padding: 20px 0;
 }
