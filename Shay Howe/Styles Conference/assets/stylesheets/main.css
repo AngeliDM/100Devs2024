@@ -125,6 +125,18 @@ h3{
 h4{
   font-size: 18px;
 }
+h5{
+  color:#a9b2b9;
+  font-size: 18px;
+  font-weight: 400;
+}
+a:hover{
+  color:#888;
+}
+a{
+  color:#648880;
+}
+
 /*
   ========================================
   Custom styles
@@ -169,7 +181,7 @@ body{
 */
 
 .btn{
-  border-radius: 5px;
+  border-radius: 10px;
   display: inline-block;
   margin:0;
 
@@ -177,8 +189,9 @@ body{
 
 .btn-alt {
   border: 1px solid #dfe2e5;
-  padding: 10px 20px;
-  background-color: #dfe2e5;;
+  padding: 10px 10px;
+  background-color: #87b4aa;
+  color:#4c5855;
 }
 
 /*
