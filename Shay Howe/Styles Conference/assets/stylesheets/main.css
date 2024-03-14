@@ -191,6 +191,8 @@ body{
   padding: 10px 10px;
   background-color: #87b4aa;
   color:#4c5855;
+  line-height: normal;
+  
 }
 
 /*
@@ -201,6 +203,16 @@ body{
 
 .hero {
   padding: 20px 80px;
+  line-height: 44px;
+}
+.hero h2{
+  font-size: 36px;
+  text-shadow: 3px 6px 4px #93aba6;
+  
+}
+.hero p{
+  font-size: 20px;
+  line-height: normal;
 }
 
 /*
@@ -211,14 +223,20 @@ body{
 
 .logo {
   float: left;
-  border-top: 4px solid #648880;
+  border-top: 4px solid #b0c2be;
   font-size: 48px;
   line-height: 44px;
   padding: 40px 0 22px 0;
+  text-shadow: 3px 6px 4px #93aba6;
 }
 
+
 .tagline{
-  margin: 0 0 20px 0;
+  margin: 20px 0 20px 0;
+}
+.primary-nav{
+  font-size: 14px;
+  font-weight: 400px;
 }
 
 /*
@@ -230,10 +248,14 @@ body{
 .primary-footer small{
   float: left;
   padding-top:10px;
+  font-weight: 400;
+  
 
 }
 .primary-footer{
   padding: 20px 0;
+  color:#648880;
+  font-size: 14px;
 }
 /*
   ========================================
