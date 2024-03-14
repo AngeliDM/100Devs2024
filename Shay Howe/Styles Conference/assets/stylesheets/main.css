@@ -130,13 +130,12 @@ h5{
   font-size: 18px;
   font-weight: 400;
 }
-a:hover{
-  color:#888;
+strong{
+  font-weight: 400;
 }
-a{
-  color:#648880;
+cite, em{
+  font-style: italic;
 }
-
 /*
   ========================================
   Custom styles
@@ -213,7 +212,13 @@ body{
 .logo {
   float: left;
   border-top: 4px solid #648880;
+  font-size: 48px;
+  line-height: 44px;
   padding: 40px 0 22px 0;
+}
+
+.tagline{
+  margin: 0 0 20px 0;
 }
 
 /*
@@ -230,6 +235,18 @@ body{
 .primary-footer{
   padding: 20px 0;
 }
+/*
+  ========================================
+  Links
+  ========================================
+*/
 
+a:hover{
+  color:#498275;
+}
+a{
+  color:#888;
+  text-decoration: none;
+}
 
 
