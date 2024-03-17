@@ -145,7 +145,9 @@ cite, em{
 body{
   color: #888;
   font: 300 16px/22px  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color:  #293f50;
 }
+
 
 /*
   ========================================
@@ -188,7 +190,6 @@ body{
 }
 
 .btn-alt {
-  border: 1px solid #dfe2e5;
   padding: 10px 10px;
   background-color: #87b4aa;
   color:#4c5855;
@@ -210,7 +211,7 @@ body{
 }
 .hero h2{
   font-size: 36px;
-  text-shadow: 3px 6px 6px #96a4a1;
+  /* text-shadow: 3px 6px 6px #96a4a1; */
   
 }
 .hero p{
@@ -297,8 +298,6 @@ a{
   color:#888;
   text-decoration: none; 
 }
-h5 a{
-  border-bottom: 2px solid #dfe2e5;
-}
+
 
 
