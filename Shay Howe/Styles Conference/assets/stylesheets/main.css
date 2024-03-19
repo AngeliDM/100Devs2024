@@ -83,6 +83,16 @@ table {
 
 /*
   ========================================
+ Rows
+  ========================================
+*/
+.row{
+  background: #fff;
+  min-width: 960px;
+  padding: 66px 0 44px 0;
+}
+/*
+  ========================================
   Body
   ========================================
 */
@@ -121,12 +131,13 @@ h2{
 }
 h3{
   font-size: 21px;
+  font-weight: 400;
 }
 h4{
   font-size: 18px;
 }
 h5{
-  color:#a9b2b9;
+  color: #293f50;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -186,16 +197,25 @@ body{
   border-radius: 10px;
   display: inline-block;
   margin:0;
+  cursor: pointer;
+  color:#fff;
+  
 
 }
 
 .btn-alt {
-  padding: 10px 10px;
-  background-color: #87b4aa;
-  color:#4c5855;
+  padding: 12px 12px;
+  background-color: #293f50;
+  color:#fff;
   line-height: normal;
-  box-shadow: 3px 6px 4px #c4dfda;
+  text-transform: uppercase;
+  border: 1px solid #fff;
   
+}
+
+.btn-alt:hover{
+  background: #fff;
+  color:#293f50;
 }
 
 /*
@@ -208,6 +228,7 @@ body{
   padding: 20px 80px;
   line-height: 44px;
   text-align: center;
+  color: #fff;
 }
 .hero h2{
   font-size: 36px;
@@ -288,15 +309,18 @@ body{
 */
 
 a:hover{
-  color:#498275;
+  color:#498275; 
 
 }
 .logo a:hover{
   text-shadow: 4px 7px 4px #5d7671;
 }
 a{
-  color:#888;
+  color:#fff;
   text-decoration: none; 
+}
+h5 a{
+  color:#5d7671;
 }
 
 
