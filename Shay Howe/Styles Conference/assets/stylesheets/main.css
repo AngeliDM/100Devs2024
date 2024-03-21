@@ -315,6 +315,14 @@ body{
   margin-right: 0;
 }
 
+section ul li{
+  list-style-type: square;
+  color:pink;
+}
+section li:first-child{
+  list-style-type: circle;
+}
+
 
 /*
   ========================================
