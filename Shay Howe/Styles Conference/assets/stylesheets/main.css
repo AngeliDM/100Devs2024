@@ -315,13 +315,6 @@ body{
   margin-right: 0;
 }
 
-section ul li{
-  list-style-type: square;
-  color:pink;
-}
-section li:first-child{
-  list-style-type: circle;
-}
 
 
 /*
@@ -349,7 +342,7 @@ section li:first-child{
 */
 
 a:hover{
-  color:#498275; 
+  color:#64ae9d; 
 
 }
 .logo a:hover{
@@ -360,8 +353,28 @@ a{
   text-decoration: none; 
 }
 h5 a{
-  color:#5d7671;
+  color:#293f50;
 }
 
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+.speaker-info li a{
+  color:#293f50;
+}
+.speaker-info{
+  border:1px solid grey;
+  border-radius: 5px;
+  margin-top:88px;
+  margin-left:20px;
+  padding:22px 0;
+  text-align: center;
+}
+
+.speaker{
+  margin-bottom: 44px;
+}
 
 
