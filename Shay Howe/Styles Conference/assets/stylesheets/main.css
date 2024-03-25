@@ -377,4 +377,15 @@ h5 a{
   margin-bottom: 44px;
 }
 
+/*
+  ========================================
+  Images
+  ========================================
+*/
 
+.teaser img{
+  display: block;
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 22px;
+}
