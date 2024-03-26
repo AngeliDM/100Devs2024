@@ -999,6 +999,28 @@ input, select, textarea {
 				width: auto;
 			}
 
+			/*Projects*/
+
+			
+			
+			.projects{
+				display: block;
+				margin: .5em;
+				border: 3px solid grey;
+				margin-bottom: 5px;
+				
+				
+			}
+			.projects img{
+				display: block;
+				max-width:100%;
+		
+	
+			}
+
+			
+			
+
 /* List */
 
 	ul.default {
@@ -1449,6 +1471,7 @@ input, select, textarea {
 			.gallery article .image {
 				margin: 0;
 				display: block;
+				
 			}
 
 			.gallery article:nth-last-child(1n) {
