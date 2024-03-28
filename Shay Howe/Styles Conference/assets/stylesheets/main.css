@@ -365,7 +365,6 @@ h5 a{
   color:#293f50;
 }
 .speaker-info{
-  border:1px solid grey;
   border-radius: 5px;
   margin-top:88px;
   margin-left:20px;
@@ -375,6 +374,13 @@ h5 a{
 
 .speaker{
   margin-bottom: 44px;
+}
+.speaker-info img{
+  border-radius: 50%;
+  height: 130px;
+  vertical-align: top;
+  margin-top: -60px;
+  padding-bottom:10px;
 }
 
 /*
