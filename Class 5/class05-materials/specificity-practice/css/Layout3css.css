@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    height:100px;
+    border: 2px solid black;
+    clear: both;
+}
+.alpha{
+    height: 350px;
+    width: 20%;
+    border: 2px solid black;
+    float: left;
+}
+.bravo{
+    height:350px;
+    width: 40%;
+    border: 2px solid black;
+    float:left;
+}
+.charlie{
+    height: 350px;
+    width: 20%;
+    border: 2px solid black;
+    float:right;
+}
+.delta{
+    height: 350px;
+    width: 20%;
+    border: 2px solid black;
+    float: right;
+}
