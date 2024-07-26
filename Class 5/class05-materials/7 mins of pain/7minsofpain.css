@@ -1,0 +1,190 @@
+/* *{
+    box-sizing: border-box;
+}
+
+header, footer{
+    height:100px;
+    border: 2px solid black;
+    text-align: center;
+    clear: both;
+}
+section{
+    height: 300px;
+    width: 33.333%;
+    border: 2px solid black;
+    float:left;
+    text-align: center;
+}
+@media screen and (max-width: 600px){
+    aside{
+        display: none;
+    }
+    section{
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 100%;
+        color: white;
+    }
+    .alpha{
+        height: 150px;
+        float:left;
+        background: rebeccapurple;
+        padding:5px 160px 0 0
+    }
+    .bravo{
+        clear: left;
+        height:150px;
+        float:left;
+        background: rgb(199, 23, 199);
+        padding-top: 50px;
+    }
+    .charlie{
+        height: 150px;
+        float:left;
+        background-color: rgb(85, 10, 85);
+        padding: 60px 0 0 150px
+    }
+    header, footer{
+        background: rgb(174, 174, 255);
+        color: white;
+        font-family: cursive;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px){
+    section{
+        background: pink;
+        color:white;
+        font-size: 40px;
+        font-style: italic;
+    }
+    .bravo{
+        padding-top: 100px;
+    }
+    header, footer{
+        background: rgb(143, 11, 77);
+        color: white;
+        
+    }
+    aside{
+        display: none;
+    }
+    header{
+        font-weight: 900;
+        padding-top:50px;
+        font-size:30px;
+    }
+    footer{
+        padding-top:60px;
+
+    }
+
+}
+@media(min-width: 1001px) and (max-width: 1500px){
+    section{
+        color:rgb(145, 233, 127);
+        font-size: 20px;
+        padding-top: 130px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+        
+    }
+    .alpha{
+        background: rgb(10, 182, 10);
+        color: rgb(13, 58, 13);
+        font-size: 35px;
+        font-family: cursive;
+    }
+    .bravo{
+        background: rgb(50, 173, 106);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        color: green;
+        font-size: 45px;
+    }
+
+    .charlie{
+        background: rgb(41, 85, 41);
+        font-size: 50px;
+        font-style: italic;
+    }
+    header, footer{
+        background: rgb(147, 245, 147);
+        color: rgb(13, 128, 112);
+        font-size: 30px;
+        font-weight: bold;
+        padding-top:25px;
+    }
+    footer{
+        background: rgb(109, 233, 109);
+    }
+    aside{
+        display: none;
+    }
+}
+@media (min-width: 1501px){
+    aside{
+        float:clear both;
+        background: red;
+        border: 2px solid black;
+        height:500px;
+        width: 10%;
+        float:left;
+        text-align: center;
+        padding-top:250px;
+        font-size: 25px;
+        text-decoration: underline rgb(143, 11, 77);
+    }
+    .right{
+        float:right;
+    }
+    section{
+        width: 26.666%;
+        background: rgb(224, 119, 119);
+        height: 500px;
+        color: rgb(133, 18, 18);
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 50px;
+    }
+    .bravo{
+        background-color: rgb(211, 58, 58);
+        font-size: 50px;
+        padding-top: 150px;
+    }
+    header, footer{
+        background: rgba(243, 176, 187, 0.822);
+        color: red;
+        font-size: 40px;
+        font-weight: bold;
+        font-family: fantasy;
+        padding-top: 30px;
+    }
+    footer{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: lighter;
+    }
+} */
+
+
+*
+{   
+    box-sizing: border-box;
+    border: 3px solid black;
+    text-align: center;
+}
+header, footer{
+    width:100%;
+    height: 100px;
+
+}
+section{
+    width:33.333%;
+    height:400px;
+    float: left;
+}
+footer{
+    clear:both;
+}
+
